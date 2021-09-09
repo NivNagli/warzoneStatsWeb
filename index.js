@@ -78,6 +78,7 @@ const getAndDisplayData = (platformList, usernameList) => {
     .then(
         (allGamesStats) => {
             if (allGamesStats) {
+                console.log(allGamesStats);
                 window.localStorage.clear();
                 addUsernameForStats(usernameList, allGamesStats);
                 localStorage.setItem("allGamesStats",JSON.stringify(allGamesStats));
