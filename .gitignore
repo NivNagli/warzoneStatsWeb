@@ -1,9 +1,9 @@
 *.css
 warzoneStats.js
-pageBuilder.js
 dataReader.js
 oldstaff.js
 *.html
 index.js
 stages/
 images/
+resultPages/index.js
